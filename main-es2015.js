@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Main Content -->\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <h1>Furkan Pinar</h1>\r\n    <h5 class=\"ml-3\">Application Developer</h5>\r\n    <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n      <p>\r\n        Ik ben Furkan Pinar. Ik heb Toegepaste Informatica gestudeerd aan de\r\n        Hogeschool PXL. Als afstudeer richting had ik gekozen voor\r\n        applicatieontwikkeling (web and mobile).\r\n      </p>\r\n      <P>\r\n        Voor meer informatie of vragen kan je mij bereiken via LinkedIn.\r\n      </P>\r\n      <a href=\"https://www.linkedin.com/in/furkanpinar9/\">\r\n        <i class=\"fab fa-linkedin\"></i>\r\n      </a>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<!-- Main Content -->\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <h1>Furkan Pinar</h1>\r\n    <h5 class=\"ml-3\">Application Developer</h5>\r\n    <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n      <p>\r\n        Hoi! Welkom op mijn blog van mijn internationale stage in Rotterdam. Ik\r\n        ben Furkan Pinar. Ik studeer toegepaste informatica aan de Hogeschool\r\n        PXL. Als afstudeer richting heb ik gekozen voor applicatieontwikkeling\r\n        (web and mobile).\r\n      </p>\r\n      <P>\r\n        Voor meer informatie of vragen kan je mij bereiken via LinkedIn.\r\n      </P>\r\n      <a href=\"https://www.linkedin.com/in/furkanpinar9/\">\r\n        <i class=\"fab fa-linkedin\"></i>\r\n      </a>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "<!-- Main Content -->\r\n<div class=\"container\">\r\n  <div c
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\r\n<app-masthead></app-masthead>\r\n<div class=\"container\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n<hr>\r\n<app-footer></app-footer>\r\n"
+module.exports = "<app-navbar></app-navbar>\r\n<app-masthead></app-masthead>\r\n<div class=\"container\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n<hr />\r\n"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 style=\"text-align: center; margin-bottom: 12px; color: lightslategray;\">\r\n  Recente Posts\r\n</h1>\r\n<app-loading *ngIf=\"loading\"></app-loading>\r\n<div class=\"row\" *ngIf=\"!loading\">\r\n  <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n    <div *ngFor=\"let post of posts\">\r\n      <app-preview-post [post]=\"post\"></app-preview-post>\r\n      <hr />\r\n    </div>\r\n\r\n    <div class=\"clearfix\">\r\n      <a class=\"btn btn-secondary float-right pointer\" routerLink=\"/posts\">\r\n        Alle Posts &rarr;\r\n      </a>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<h1 style=\"text-align: center; margin-bottom: 12px; color: lightslategray;\">\r\n  Recente Posts\r\n</h1>\r\n<div class=\"row\">\r\n  <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n    <div *ngFor=\"let post of posts\">\r\n      <app-preview-post [post]=\"post\"></app-preview-post>\r\n      <hr />\r\n    </div>\r\n\r\n    <div class=\"clearfix\">\r\n      <a class=\"btn btn-secondary float-right pointer\" routerLink=\"/posts\">\r\n        Alle Posts &rarr;\r\n      </a>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -107,7 +107,7 @@ module.exports = "<header\r\n  class=\"masthead\"\r\n  style=\"background-image:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <p>\r\n  navbar works!\r\n</p>\r\n<a routerLink=\"home\">Home</a> <br >\r\n<a routerLink=\"about\">About</a> <br >\r\n<a routerLink=\"contact\">Contact</a> <br >\r\n<a routerLink=\"posts\">Posts</a> <br > -->\r\n\r\n<!-- Navigation -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\r\n  <div class=\"container\">\r\n    <a class=\"navbar-brand pointer\" routerLink=\"home\">Furkan Pinar Blog</a>\r\n    <button\r\n      class=\"navbar-toggler navbar-toggler-right\"\r\n      type=\"button\"\r\n      data-toggle=\"collapse\"\r\n      data-target=\"#navbarResponsive\"\r\n      aria-controls=\"navbarResponsive\"\r\n      aria-expanded=\"false\"\r\n      aria-label=\"Toggle navigation\"\r\n    >\r\n      Menu\r\n      <i class=\"fa fa-bars\"></i>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"home\">Home</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"about\">Over Mij</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"posts\">Posts</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"contact\">Contact</a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n"
+module.exports = "<!-- <p>\r\n  navbar works!\r\n</p>\r\n<a routerLink=\"home\">Home</a> <br >\r\n<a routerLink=\"about\">About</a> <br >\r\n<a routerLink=\"contact\">Contact</a> <br >\r\n<a routerLink=\"posts\">Posts</a> <br > -->\r\n\r\n<!-- Navigation -->\r\n<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\r\n  <div class=\"container\">\r\n    <a class=\"navbar-brand pointer\" routerLink=\"home\">Furkan Pinar Blog</a>\r\n    <button\r\n      class=\"navbar-toggler navbar-toggler-right\"\r\n      type=\"button\"\r\n      data-toggle=\"collapse\"\r\n      data-target=\"#navbarResponsive\"\r\n      aria-controls=\"navbarResponsive\"\r\n      aria-expanded=\"false\"\r\n      aria-label=\"Toggle navigation\"\r\n    >\r\n      Menu\r\n      <i class=\"fa fa-bars\"></i>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"home\">Home</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"about\">Over Mij</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link pointer\" routerLink=\"posts\">Posts</a>\r\n        </li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n"
 
 /***/ }),
 
@@ -140,7 +140,7 @@ module.exports = "<div class=\"post-preview\">\r\n  <a (click)=\"go()\" class=\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\" *ngIf=\"loading\">\r\n  <div class=\"col-12 text-center\">\r\n    <i class=\"fa fa-spinner fa-pulse fa-3x fa-fw\"></i>\r\n    <span class=\"sr-only\">Loading...</span>\r\n  </div>\r\n</div>\r\n<div class=\"row\" *ngIf=\"!loading\">\r\n  <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n    <h1 [textContent]=\"post.title\"></h1>\r\n\r\n    <h3 class=\"post-content\" [textContent]=\"post.content\"></h3>\r\n\r\n    <div\r\n      id=\"carouselExampleControls\"\r\n      class=\"carousel slide\"\r\n      data-ride=\"carousel\"\r\n    >\r\n      <div class=\"carousel-inner\">\r\n        <div class=\"carousel-item active\">\r\n          <img class=\"d-block w-100\" [src]=\"post.img\" />\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <p style=\"color: grey; text-align: center;\" class=\"post-meta\">\r\n      <i>Posted by </i>\r\n      <i\r\n        ><a\r\n          href=\"#\"\r\n          style=\"color: grey; text-decoration: none;\"\r\n          [textContent]=\"post.author\"\r\n        ></a\r\n      ></i>\r\n    </p>\r\n  </div>\r\n  <!-- Pager -->\r\n</div>\r\n"
+module.exports = "<div class=\"row\">\r\n  <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n    <h1 [textContent]=\"post.title\"></h1>\r\n\r\n    <p class=\"post-content\" [textContent]=\"parts[0]\"></p>\r\n\r\n    <img class=\"d-block w-100\" [src]=\"post.img[0]\" />\r\n    <p class=\"post-content\" [textContent]=\"parts[1]\"></p>\r\n\r\n    <img class=\"d-block w-100\" [src]=\"post.img[1]\" />\r\n\r\n    <p class=\"post-content\" [textContent]=\"parts[2]\"></p>\r\n\r\n    <p style=\"color: grey; text-align: center;\" class=\"post-meta\">\r\n      <i>Posted by </i>\r\n      <i\r\n        ><a\r\n          href=\"#\"\r\n          style=\"color: grey; text-decoration: none;\"\r\n          [textContent]=\"post.author\"\r\n        ></a\r\n      ></i>\r\n    </p>\r\n  </div>\r\n  <!-- Pager -->\r\n</div>\r\n"
 
 /***/ }),
 
@@ -200,10 +200,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var src_app_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var src_app_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/about/about.component */ "./src/app/about/about.component.ts");
-/* harmony import */ var src_app_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/contact/contact.component */ "./src/app/contact/contact.component.ts");
-/* harmony import */ var src_app_past_posts_past_posts_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/past-posts/past-posts.component */ "./src/app/past-posts/past-posts.component.ts");
-/* harmony import */ var src_app_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/view-post/view-post.component */ "./src/app/view-post/view-post.component.ts");
-
+/* harmony import */ var src_app_past_posts_past_posts_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/past-posts/past-posts.component */ "./src/app/past-posts/past-posts.component.ts");
+/* harmony import */ var src_app_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/view-post/view-post.component */ "./src/app/view-post/view-post.component.ts");
 
 
 
@@ -215,9 +213,8 @@ const routes = [
     { path: "", redirectTo: "/home", pathMatch: "full" },
     { path: "home", component: src_app_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
     { path: "about", component: src_app_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
-    { path: "contact", component: src_app_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"] },
-    { path: "posts", component: src_app_past_posts_past_posts_component__WEBPACK_IMPORTED_MODULE_6__["PastPostsComponent"] },
-    { path: "post/:id", component: src_app_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_7__["ViewPostComponent"] }
+    { path: "posts", component: src_app_past_posts_past_posts_component__WEBPACK_IMPORTED_MODULE_5__["PastPostsComponent"] },
+    { path: "post/:id", component: src_app_view_post_view_post_component__WEBPACK_IMPORTED_MODULE_6__["ViewPostComponent"] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -602,7 +599,7 @@ BlogPost.ctorParameters = () => [
     { type: Number },
     { type: String },
     { type: String },
-    { type: String }
+    { type: Array }
 ];
 
 
@@ -776,7 +773,7 @@ __webpack_require__.r(__webpack_exports__);
 let BlogPostService = class BlogPostService {
     constructor() {
         this.blogs = [];
-        this.blogs.push(new _models_blog_post__WEBPACK_IMPORTED_MODULE_2__["BlogPost"](0, "Week 1", "Tijdens mijn week een", "assets/images/home-bg.jpg"));
+        this.blogs.push(new _models_blog_post__WEBPACK_IMPORTED_MODULE_2__["BlogPost"](0, "Hoi! Welkom op mijn eerste post van mijn internationale stage in Rotterdam. Mijn naam is Pinar Furkan. Ik studeer aan de hogeschool PXL. Ik studeer toegepaste informatica, met specialisatie in applicatieontwikkeling. Ik woon in een appartement in Schiedam dat mijn stagebedrijf verhuurt. Ik woon hier niet alleen, we zijn met een paar collega's. Samen met deze collega’s ga ik naar het kantoor in Rotterdam. ++ De eerste week kon ik de stad niet echt verkennen. Ik had geen vervoer. Ook had ik nog geen OV-chipkaart. Je kunt het vergelijken als een Buzzy Pazz als je niet weet wat een OV-chipkaart is. Een week geleden had ik eentje besteld naar mijn huis in België, maar is aangekomen toen ik al in Schiedam aankwam. Natuurlijk is dat heel stom. Als ik naar het centrum van Rotterdam zou willen gaan, moest ik ongeveer een uur wandelen, dus dat was totaal geen optie. ++ Hierbij, mijn eerste en waarschijnlijk de belangrijkste tip, weeg slim en bestel je OV-chipkaart twee weken voor je stage gaat beginnen. Als je een Nederlandse bankrekening hebt, dan hoef je geen zorgen te maken. Je kan het bestellen via het internet.", "Week 1. Welcome To Rotterdam", ["assets/images/schiedam.jpeg", "assets/images/willemswerf.jpeg"]));
         // this.blogs.push(
         //   new BlogPost(
         //     1,
@@ -876,7 +873,7 @@ let ViewPostComponent = class ViewPostComponent {
     getPost() {
         const id = this.route.snapshot.paramMap.get("id");
         this.post = this.postService.GetPost(+id);
-        console.log(this.post);
+        this.parts = this.post.content.split("++");
     }
 };
 ViewPostComponent.ctorParameters = () => [
