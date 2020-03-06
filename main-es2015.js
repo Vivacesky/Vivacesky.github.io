@@ -774,14 +774,11 @@ let BlogPostService = class BlogPostService {
     constructor() {
         this.blogs = [];
         this.blogs.push(new _models_blog_post__WEBPACK_IMPORTED_MODULE_2__["BlogPost"](0, "Hoi! Welkom op mijn eerste post van mijn internationale stage in Rotterdam. Mijn naam is Pinar Furkan. Ik studeer aan de hogeschool PXL. Ik studeer toegepaste informatica, met specialisatie in applicatieontwikkeling. Ik woon in een appartement in Schiedam dat mijn stagebedrijf verhuurt. Ik woon hier niet alleen, we zijn met een paar collega's. Samen met deze collega’s ga ik naar het kantoor in Rotterdam. ++ De eerste week kon ik de stad niet echt verkennen. Ik had geen vervoer. Ook had ik nog geen OV-chipkaart. Je kunt het vergelijken als een Buzzy Pazz als je niet weet wat een OV-chipkaart is. Een week geleden had ik eentje besteld naar mijn huis in België, maar is aangekomen toen ik al in Schiedam aankwam. Natuurlijk is dat heel stom. Als ik naar het centrum van Rotterdam zou willen gaan, moest ik ongeveer een uur wandelen, dus dat was totaal geen optie. ++ Hierbij, mijn eerste en waarschijnlijk de belangrijkste tip, weeg slim en bestel je OV-chipkaart twee weken voor je stage gaat beginnen. Als je een Nederlandse bankrekening hebt, dan hoef je geen zorgen te maken. Je kan het bestellen via het internet.", "Week 1. Welcome To Rotterdam", ["assets/images/schiedam.jpeg", "assets/images/willemswerf.jpeg"]));
-        // this.blogs.push(
-        //   new BlogPost(
-        //     1,
-        //     "fsdfsadfasdfsadfads",
-        //     "fsadsfafsd",
-        //     "assets/images/home-bg.jpg"
-        //   )
-        // );
+        this.blogs.push(new _models_blog_post__WEBPACK_IMPORTED_MODULE_2__["BlogPost"](1, "Zoals je aan de titel kan zien ben ik tijdens de tweede week naar de bekerwestrijd geweest van Feyenoord. Het was een geweldige ervaring. Er vielen 8 goalen tijdens die nacht. Feyenoord heeft met 7 - 1 gewonnen tegen NAC Breda. Feyenoord gaat naar de finale tegen Utrecht. Ik ga proberen om een ticket te kopen om naar de finale te gaan.", "Week 2. Feyenoord 7 - 1 NAC Breda", [
+            "assets/images/feyenoord1.jpeg",
+            "assets/images/feyenoord2.jpeg",
+            "assets/images/feyenoord3.jpeg"
+        ]));
         // this.blogs.push(
         //   new BlogPost(
         //     2,
