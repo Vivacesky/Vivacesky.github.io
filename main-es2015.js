@@ -779,14 +779,7 @@ let BlogPostService = class BlogPostService {
             "assets/images/feyenoord2.jpeg",
             "assets/images/feyenoord3.jpeg"
         ]));
-        // this.blogs.push(
-        //   new BlogPost(
-        //     2,
-        //     "fsdfsadfasdfsadfads",
-        //     "fsadsfafsd",
-        //     "assets/images/home-bg.jpg"
-        //   )
-        // );
+        this.blogs.push(new _models_blog_post__WEBPACK_IMPORTED_MODULE_2__["BlogPost"](2, "Ik was van plan om deze week naar Amsterdam te gaan, maar helaas is alles gesloten en niet aangeraden om naar toeristische plekken te gaan. Deze week ga ik niet veel kunnen doen :3 helaas.", "Week 3. Corona?!", ["assets/images/werk.jpeg", "assets/images/corona.jpeg"]));
         // this.blogs.push(
         //   new BlogPost(
         //     3,
