@@ -96,7 +96,7 @@ module.exports = "<div class=\"row\">\r\n    <div class=\"col-12 text-center\">\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header\r\n  class=\"masthead\"\r\n  style=\"background-image: url('assets/images/home-bg.jpg')\"\r\n>\r\n  <div class=\"overlay\"></div>\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n        <div class=\"site-heading\">\r\n          <h1>Welkom bij mijn blog</h1>\r\n          <span class=\"subheading\">Erasmus Internship @Rotterdam</span>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</header>\r\n"
+module.exports = "<header\r\n  class=\"masthead\"\r\n  style=\"background-image: url('assets/images/home-bg.jpg')\"\r\n>\r\n  <div class=\"overlay\"></div>\r\n  <div class=\"container\">\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-8 col-md-10 mx-auto\">\r\n        <div class=\"site-heading\">\r\n          <h1>Welkom op mijn blog</h1>\r\n          <span class=\"subheading\">Erasmus Internship @Rotterdam</span>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</header>\r\n"
 
 /***/ }),
 
